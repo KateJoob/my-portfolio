@@ -4,18 +4,16 @@ import NavBar from './components/NavBar';
 import Home from './components/Home';
 import Register from './components/Auth/Register';
 import Login from './components/Auth/Login';
-import Chatbox from './components/Chatbox';
 import ContactUs from './components/ContactUs';
 import Projects from './components/Projects';
 import About from './components/About';
+import Footer from './components/Footer';
 
 function App() {
-
   return (
     <>
     <Router>
       <NavBar/>
-      <Chatbox/>
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/register" element={<Register />} />
@@ -26,6 +24,7 @@ function App() {
         <Route path="/about" element={<About to="/about" />} />
       </Routes>
     </Router>
+    <Footer/>
     </>
   );
 }
