@@ -1,8 +1,12 @@
 import React from 'react';
+import Gallery from '../Gallery';
+import Buttons from '../Buttons';
 
 export default () => {
   return (
     <div className="home">
+      <Gallery/>
+      <Buttons/>
       <header className="header">
         <h1>Innovating with Technology</h1>
       </header>

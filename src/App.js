@@ -8,6 +8,7 @@ import ContactUs from './components/ContactUs';
 import Projects from './components/Projects';
 import About from './components/About';
 import Footer from './components/Footer';
+import Chatbox from './components/Chatbox';
 
 function App() {
   return (
@@ -23,8 +24,9 @@ function App() {
         <Route path="/projects" element={<Projects to="/projects" />} />
         <Route path="/about" element={<About to="/about" />} />
       </Routes>
-    </Router>
+      <Chatbox/>
     <Footer/>
+    </Router>
     </>
   );
 }
