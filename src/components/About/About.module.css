@@ -1,21 +1,6 @@
 .container {
     display: flex;
-    flex-direction: column;
     height: 100vh;
-    background-color: #f0f0f0;  /* Background color, adjust as needed */
-    font-family: Arial, sans-serif;  /* Adjust font if needed */
-  }
-  
-  .title {
-    text-align: center;
-    font-size: 2.5rem;
-    margin: 20px 0;
-    color: #333;  /* Title color, adjust as needed */
-  }
-  
-  .content {
-    display: flex;
-    flex: 1;
   }
   
   .imageSection {
@@ -27,9 +12,8 @@
   
   .image {
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
-    max-height: 100vh;
   }
   
   .textSection {
@@ -37,18 +21,23 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
+    justify-content: center;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
   }
   
   .article {
-    flex: 1;
     margin-bottom: 20px;
-    font-size: 1.2rem;
-    color: #555;  /* Article text color, adjust as needed */
   }
   
   .bottomText {
     text-align: center;
     font-size: 1rem;
-    color: #777;  /* Bottom text color, adjust as needed */
   }
+  
+
   
