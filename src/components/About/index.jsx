@@ -25,11 +25,11 @@ const About = () => {
             Thank you for taking the time to learn a bit about me. I look forward to connecting and sharing more as I continue my journey in web development and beyond!
             </p>
           </article>
+        </div>
+      </div>
           <div className={styles.bottomText}>
             Thank you for visiting my page!
           </div>
-        </div>
-      </div>
     </div>
   );
 }

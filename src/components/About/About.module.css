@@ -49,6 +49,10 @@
   .bottomText {
     text-align: center;
     font-size: 1rem;
-    color: #777;  
+    color: #777;  /* Bottom text color, adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;  /* Adjust the height if needed */
   }
   
