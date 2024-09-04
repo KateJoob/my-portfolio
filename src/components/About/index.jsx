@@ -5,10 +5,6 @@ const About = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>About Me</h1>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
       <div className={styles.content}>
         <div className={styles.imageSection}>
          <img src="/img/13.jpg" alt="About me" className={styles.image} />
