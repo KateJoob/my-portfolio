@@ -35,3 +35,79 @@ body {
 } */
 
 
+
+
+.home {
+    background-image: url('../../public/img/12.jpg');
+    background-size: cover;
+    background-position: 30% 70%;
+    color: white;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    min-height: 100vh;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    flex-direction: column;
+  }
+  
+  .image-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+  }
+  
+  .image-container {
+    text-align: center;
+  }
+  
+  .image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 10px solid cornsilk
+  }
+  
+  .about-me {
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .footer {
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.8);
+  }
+  
+  .footer .social-media {
+    margin-top: 1rem;
+  }
+  
+  .footer .social-media a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+  }
+
+
+
+  .footer {
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+  }
+  
+  .footer .social-media {
+    margin-top: 1rem;
+  }
+  
+  .footer .social-media a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+  }

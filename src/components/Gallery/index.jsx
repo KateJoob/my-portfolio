@@ -23,6 +23,9 @@ export default () => {
                 <div class="flexbox-item flexbox-item-3">
                     <img src="/img/6.jpg" alt="Description 1" class="flexbox-image"/>
                 </div>
+                <div class="flexbox-item flexbox-item-3">
+                    <img src="/img/7.jpg" alt="Description 1" class="flexbox-image"/>
+                </div>
             </div>
   
         </>
